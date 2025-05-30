@@ -1,0 +1,18 @@
+@media screen and (max-width:768px){
+    .leftcolumn,.rightcolumn{
+        width: 100%;
+        padding: 0;
+        .h200{
+            height: 300px;
+        }
+    }
+}
+
+// max-width:768px  아이패드프로 빼고 모바일 패드 다 적용
+
+// @media screen and (max-width:1400px){
+//     .leftcolumn,.rightcolumn{
+
+//     }
+// }
+

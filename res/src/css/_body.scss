@@ -1,0 +1,74 @@
+.leftcolumn{
+    float:left;
+    width:75%;
+}
+.rightcolumn{
+    float:right;
+    width: 25%;
+    padding-left: 20px;
+}
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 1px #FFE760;
+    color: #ABDCFF;
+}
+/*float 의 단점은 양사이드를 깔끔히 처리해줘야함,아래에서 정리할거임*/
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h200{
+    height:600px;
+}
+.h100{
+    height:200px;
+}
+// 사진 삽입
+.t1{
+    background: url(http://localhost:3000/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.t2{
+    background: url(http://localhost:3000/img/5.png);
+    background-size: cover;
+    background-position: center;
+}
+.t3{
+    background: url(http://localhost:3000/img/nav_6.png);
+    background-size: cover;
+    background-position: center;
+}
+.t4{
+    background: url(http://localhost:3000/img/nav_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.t5{
+    background: url(http://localhost:3000/img/nav_2.png);
+    background-size: cover;
+    background-position: center;
+}
+.t6{
+    background: url(http://localhost:3000/img/nav_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.t7{
+    background: url(http://localhost:3000/img/nav_4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
